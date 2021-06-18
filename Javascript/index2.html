@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        function a(b){
+            if(b<10){
+                return 2;
+            }
+            else{
+                return 4;
+            }
+            document.write("<br>"+b)
+        }
+
+        //document.write(a(15));
+
+        function b(c,d){
+            for(var i=0; i<c; i++){
+                document.write(i+"<br>")
+            }
+            return c*d;
+        }
+
+        //e = b(5,10);
+        //document.write(e);
+
+        function f1(){
+            for(var i=0; i<10; i++){
+                for(var j=0; j<10; j++){
+                    document.write(j);
+                }
+                document.write("<br><br>"+i+"<br><br>");
+            }
+        }
+
+        //f1();
+
+        //Arreglos
+        var lista = ["Diego", "María", "Juan", "Marcela"];
+        document.write("<br> Mi nombre es: "+lista[0]);
+
+        for(var i=0; i<4; i++){
+            document.write("<br>"+lista[i])
+        }
+
+        //Ingresando datos por pantalla
+        var edad = prompt("Ingrese su edad");
+        document.write("<br> La edad ingresada es: "+edad);
+
+        // Solicitar por pantalla un número para construir la tabla de multiplicar
+        // Se debe imprimir la tabla en este formato
+        // Utilice Bootstrap o CSS
+
+        //5 x 1 = 5
+        //5 x 2 = 10
+        //5 x 3 = 15
+        //.
+        //.
+        //5 x 12 = 60
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
